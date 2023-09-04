@@ -48,19 +48,19 @@ def get_paths(path, valid_extensions):
 	response.headers['Content-Type'] = 'application/javascript'
 	return response
 
-@app.route('/')
+@app.route('/vizanti/')
 def index():
 	return render_template('index.html')
 
-@app.route('/templates/files')
+@app.route('/vizanti/templates/files')
 def list_template_files():
 	return get_files("templates", ['.html', '.js', '.css'])
 
-@app.route('/assets/robot_model/paths')
+@app.route('/vizanti/assets/robot_model/paths')
 def list_robot_model_files():
 	return get_paths("assets/robot_model", ['.png'])
 
-@app.route('/<path:path>')
+@app.route('/vizanti/<path:path>')
 def serve_static(path):
 	return send_from_directory(app.static_folder, path)
 

@@ -1,4 +1,4 @@
-import { rosbridge } from '/js/modules/rosbridge.js';
+import { rosbridge } from '/vizanti/js/modules/rosbridge.js';
 
 const typeButton = document.getElementById('add_set_type');
 const topicButton = document.getElementById('add_set_topics');

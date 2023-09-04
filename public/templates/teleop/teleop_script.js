@@ -1,7 +1,7 @@
-import { rosbridge } from '/js/modules/rosbridge.js';
-import { settings } from '/js/modules/persistent.js';
-import { nipplejs } from '/js/modules/joystick.js';
-import { Status } from '/js/modules/status.js';
+import { rosbridge } from '/vizanti/js/modules/rosbridge.js';
+import { settings } from '/vizanti/js/modules/persistent.js';
+import { nipplejs } from '/vizanti/js/modules/joystick.js';
+import { Status } from '/vizanti/js/modules/status.js';
 
 let topic = getTopic("{uniqueID}");
 let status = new Status(

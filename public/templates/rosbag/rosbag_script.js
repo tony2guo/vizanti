@@ -1,5 +1,5 @@
-import { rosbridge } from '/js/modules/rosbridge.js';
-import { settings } from '/js/modules/persistent.js';
+import { rosbridge } from '/vizanti/js/modules/rosbridge.js';
+import { settings } from '/vizanti/js/modules/persistent.js';
 
 let path = "~/recording.bag";
 let topic_list = new Set();

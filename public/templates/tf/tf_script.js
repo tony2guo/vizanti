@@ -1,7 +1,7 @@
-import { view } from '/js/modules/view.js';
-import { tf, applyRotation } from '/js/modules/tf.js';
-import { settings } from '/js/modules/persistent.js';
-import { Status } from '/js/modules/status.js';
+import { view } from '/vizanti/js/modules/view.js';
+import { tf, applyRotation } from '/vizanti/js/modules/tf.js';
+import { settings } from '/vizanti/js/modules/persistent.js';
+import { Status } from '/vizanti/js/modules/status.js';
 
 let status = new Status(
 	document.getElementById("{uniqueID}_icon"),

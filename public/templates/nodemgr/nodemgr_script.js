@@ -1,4 +1,4 @@
-import { rosbridge } from '/js/modules/rosbridge.js';
+import { rosbridge } from '/vizanti/js/modules/rosbridge.js';
 
 let packages = [];
 

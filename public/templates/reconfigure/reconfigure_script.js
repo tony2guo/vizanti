@@ -1,4 +1,4 @@
-import { rosbridge } from '/js/modules/rosbridge.js';
+import { rosbridge } from '/vizanti/js/modules/rosbridge.js';
 
 async function getDynamicReconfigureNodes() {
 	const getNodesService = new ROSLIB.Service({

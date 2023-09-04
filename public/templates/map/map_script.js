@@ -1,9 +1,9 @@
-import { view } from '/js/modules/view.js';
-import { tf } from '/js/modules/tf.js';
-import { rosbridge } from '/js/modules/rosbridge.js';
-import { settings } from '/js/modules/persistent.js';
-import { imageToDataURL } from '/js/modules/util.js';
-import { Status } from '/js/modules/status.js';
+import { view } from '/vizanti/js/modules/view.js';
+import { tf } from '/vizanti/js/modules/tf.js';
+import { rosbridge } from '/vizanti/js/modules/rosbridge.js';
+import { settings } from '/vizanti/js/modules/persistent.js';
+import { imageToDataURL } from '/vizanti/js/modules/util.js';
+import { Status } from '/vizanti/js/modules/status.js';
 
 async function saveMap(save_path, topic) {
 	const saveMapService = new ROSLIB.Service({
